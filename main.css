@@ -1,0 +1,93 @@
+body{
+    background-color: #34588C;
+}
+
+.left-content{
+    text-align: center;
+    margin-top: 28%;
+    font-size: 30px;
+    color: white;
+}
+
+.head_login{
+    display: block;
+    margin: 10% 50px 30px 50px;
+    height: 80%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(10, 10, 56);
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.facebook-btn, .instagram-btn, .google-btn, .github-btn{
+    margin-inline: 20px;
+    box-shadow: 5px 5px;
+}
+
+.facebook-btn:hover, .instagram-btn:hover, .google-btn:hover, .github-btn:hover{
+    background-color: rgb(241, 231, 231);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input{
+    margin: 10px;
+    border-radius: 10px;
+    height: 25px;
+    width: 250px;
+}
+
+.user_img, .key_img{
+    height: 18px;
+    width: 18px;
+}
+
+.submit{
+    background-color: #3a6197;
+    border: solid 1px;
+    border-radius: 20px;
+    height: 25px;
+    width: 75px;
+    margin: 20px;
+}
+
+.forget_pass{
+    margin: 10px;
+}
+
+.head {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.split {
+    height: 70%;
+    width: 40%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    border-radius: 20px;
+    margin: 70px 0 auto 170px;
+    left: 0;
+    background-image: url(galaxy.jpeg);
+    text-align: center;
+}
+
+.right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(243, 243, 243);
+    margin: 70px 140px auto 0;
+    right: 0;
+    z-index: -1;
+}
